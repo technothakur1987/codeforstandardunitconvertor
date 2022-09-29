@@ -1,0 +1,191 @@
+/*resources---https://www.unitconverters.net/*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body{
+  background-color: pink;
+}
+.mainHeader{
+  height: 10vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  /*font-family: 'Roboto Slab', serif;*//**/
+  font-family: 'Bungee Spice', cursive;
+  background-color: black;
+
+}
+/*navHeader*/
+.navHeader{
+  height: 10vh!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  
+  font-family: 'Roboto Slab', serif;
+  color: white!important;
+  width: 100%;
+  
+  background: linear-gradient(yellow,orange);
+  
+  
+
+}
+.navHeader ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+  background: transparent;
+  margin: 0;
+  
+  font-family: 'Bungee Spice', cursive!important;
+  
+}
+.navHeader ul li a{
+  text-transform: none;
+  text-decoration: none;
+  color: blue!important;
+  padding: 1rem;
+}
+.navHeader ul li a:hover{
+  color: white!important;
+  background-color: black;
+  transition: 0.5s!important;
+  border-radius: 15px;
+}
+
+
+
+/*length*/
+.length{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 80vh;
+  font-family: 'Bungee Spice', cursive!important;
+}
+.lengthMain{
+  
+  display: flex;
+  flex-direction: column; 
+  height:auto;
+  width: auto;
+  background-color: black;
+  box-shadow: 1px 1px 60px black;
+}
+.units,.values{
+  background-color: yellow;
+}
+.units .col-6,.values .col-6{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lengthMain select{
+  padding: 1px 2rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+  background-color: black;
+}
+.lengthMain input{
+  padding: 1px 0.25rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+  background-color: black;
+}
+.lengthMain select:focus{
+  padding: 1px 2rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+}
+.lengthMain select:active{
+  padding: 1px 2rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+}
+.resultBtn
+{
+  background-color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  
+}
+.resultBtn:hover {
+  cursor: pointer!important;
+  box-shadow: 1px 1px 31px rgb(189, 47, 47);
+  
+  
+  
+
+}
+
+
+
+/*Temperature*/
+.Temperature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 80vh;
+  font-family: 'Bungee Spice', cursive!important;
+}
+.TemperatureMain{
+  
+  display: flex;
+  flex-direction: column; 
+  height:auto;
+  width: auto;
+  background-color: black;
+  box-shadow: 1px 1px 60px black;
+}
+.Temperatureunits,.Temperaturevalues{
+  background-color: yellow;
+}
+.Temperatureunits .col-6,.Temperaturevalues .col-6{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.TemperatureMain select{
+  padding: 1px 2rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+  background-color: black;
+}
+.TemperatureMain input{
+  padding: 1px 0.25rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+  background-color: black;
+}
+.TemperatureMain select:focus{
+  padding: 1px 2rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+}
+.TemperatureMain select:active{
+  padding: 1px 2rem!important;
+  margin-left: 0.5rem!important;
+  border-radius: 10px!important;
+}
+.resultTempBtn
+{
+  background-color: black;
+  border-radius: 10px;
+  padding: 1rem;
+  
+}
+.resultTempBtn:hover {
+  cursor: pointer!important;
+  box-shadow: 1px 1px 31px rgb(189, 47, 47);
+  
+  
+  
+
+}
+
